@@ -12,7 +12,7 @@ import {
 import React from "react";
 import { Doughnut, Line } from "react-chartjs-2";
 import {
-  orange,
+  purpleColor,
   orangeLight,
   purple,
   purpleLight,
@@ -92,8 +92,8 @@ const DoughnutChart = ({ value = [], labels = [] }) => {
       {
         data: value,
         backgroundColor: [purpleLight, orangeLight],
-        hoverBackgroundColor: [purple, orange],
-        borderColor: [purple, orange],
+        hoverBackgroundColor: [purple, purpleColor],
+        borderColor: [purple, purpleColor],
         offset: 40,
       },
     ],
